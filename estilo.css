@@ -1,0 +1,39 @@
+*{box-sizing: border-box;margin: 0;}
+body{font-family: arial,sans-serif; }
+nav { display: flex; justify-content: space-around;	
+				 background-color: red;color: white;
+					font-size: 25px;
+					padding: 15px;}
+nav a{text-decoration: none; color: white;}
+nav a:hover{color: yellow;}
+
+header{display: flex; text-align: center; justify-content: center;	
+		height: 200px; 
+		background-image:url(https://i.pinimg.com/originals/a6/d8/98/a6d8987e9ef7745e70208ebf0c9837d5.gif);
+			background-repeat: no-repeat; 
+			 
+			 background-size: cover;}
+#titulo{ text-align: center; justify-content:center; align-items: center;text-shadow: 3px 3px 3px black; }
+#titulo h1 { color: yellow; font-size: 100px;  }
+
+#titulo h2 { color: brown; font-size: 50px;  }
+
+p{margin-right: 50px; }
+#contenedor-servicios { padding: 20px;display: flex; }
+.titulo-2{text-align: center; color: red; font-weight: bold; padding: 20px;}
+#obras{background-color: lightgrey;}
+#contenedor-obras{display: flex; flex-wrap: wrap; justify-content: space-around;}
+#contenedor-obras p{text-align: center;padding: 20px; }
+#pie{display: flex;justify-content: space-around;}
+#enlaces a {text-decoration: none;}
+article.imagen {width: 33% ; text-align: center;}
+
+
+footer {background-color: grey;  padding: 50px; text-align: center;
+		color: white;}
+#pie{border-top: 3px solid white; padding: 15px;}
+footer p{padding-bottom: 20px;}
+#contacto form {background-color: lightgrey; border-radius: 10px;padding: 30px;}
+#contacto {padding-right: 70px; padding-left: 70px; padding-bottom: 50px;}
+#contacto input{ font-size: 20px;width: 80%; padding: 10px; border-radius: 10px; margin-bottom: 15px; border: 1px lightgrey solid;}
+#contacto label {width: 20%; display: block; font-weight: bold; color: brown; font-size: 1.2em;}/*convierte en bloques las lineas*/
